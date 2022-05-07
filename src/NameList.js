@@ -6,7 +6,7 @@ function NameList() {
     const person = [
         {
             id:1,
-            name:"madhu",
+            name:"madhu trial",
             age:30,
             skill: "react"
         },
