@@ -61,7 +61,11 @@ function App() {
       <CounterOne />
       <div>hai madhu test branch</div>
       <div>hai madhu feature branch</div>
+<<<<<<< Updated upstream
       <div>hai madhu master change</div>
+=======
+      <div>hai madhu feature branch stack</div>
+>>>>>>> Stashed changes
 
 
       {/* <UserContext.Provider value={'madhu k v'} >
