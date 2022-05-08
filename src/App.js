@@ -60,7 +60,8 @@ function App() {
 
       <CounterOne />
       <div>hai madhu test branch</div>
-      <div>hai madhu feature branch merge conflict</div>
+      <div>hai madhu feature branch</div>
+
 
       {/* <UserContext.Provider value={'madhu k v'} >
         <ChannelContext.Provider value={'hai'}>
