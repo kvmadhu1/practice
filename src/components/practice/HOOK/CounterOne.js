@@ -1,7 +1,7 @@
-import React,{useReducer} from 'react'
+import React from 'react'
 
 function CounterOne() {
-    useReducer(reducer,initialState)
+    
 
   return (
     <div>
