@@ -1,7 +1,7 @@
 
 import "./App.css";
 
-
+import {Routes,Route} from 'react-router-dom'
 
 import BindEvent from "./components/practice/BindEvent";
 import ClassClick from "./components/practice/ClassClick";
@@ -50,125 +50,28 @@ import DataFetching from "./components/practice/DataFetching";
 import ComponentC from "./components/practice/HOOK/ComponentC";
 import React from "react";
 import CounterOne from "./components/practice/HOOK/CounterOne";
+import StepsToPromote from "./components/practice/MUI/StepsToPromote";
+import Home from "./components/practice/REACT_ROUTER_DOM/Home";
+import About from "./components/practice/REACT_ROUTER_DOM/About";
+import { Navbar } from "./components/practice/REACT_ROUTER_DOM/Navbar";
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
 
 function App() {
   return (
-    <div className="App">
+    <>
+  <CounterOne />
 
-      <CounterOne />
+    
+    {/* <Navbar />
+       <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='about' element={<About />} />     
 
-
-      {/* <UserContext.Provider value={'madhu k v'} >
-        <ChannelContext.Provider value={'hai'}>
-        <ComponentC />
-        </ChannelContext.Provider>
-      
-      </UserContext.Provider> */}
-      
-      
-
-      {/* <DataFetching /> */}
-
-      {/* <IntervalHookCounter /> */}
-
-      {/* <IntervalClassCounter /> */}
-
-      {/* <MouseContainer /> */}
-
-      {/* <HookMouse /> */}
-
-      {/* <ClassMouse /> */}
-
-      {/* <HookCounterOne /> */}
-      
-      {/* <ClassCounterOne /> */}
-
-      {/* <HookCounterFour /> */}
-
-      {/* <HookCounterThree /> */}
-
-      {/* <HookCounterTwo /> */}
-
-      {/* <HookCounter /> */}
-
-      {/* <ClassCounter /> */}
-
-{/* <PostForm /> */}
-{/* <PostList /> */}
-
-
-  {/* <UserProvider value={'madhu'}>
-    <ComponentC />
-  </UserProvider> */}
-      
-
-      {/* <FRParentInput /> */}
-
-      {/* <FocusInput /> */}
-
-      {/* <Input /> */}
-
-      {/* <RefsDemo /> */}
-      {/* <ParentComp /> */}
-
-      {/* <Table /> */}
-
-    {/* <FragmentDemo /> */}
-      {/* <LifeCycleA /> */}
-
-      {/* <Form /> */}
-
-      
-      {/* <h1 className="error">error</h1>
-      <h1 className={styles.success}>success</h1> */}
-
-      {/* <InlineStyle />
-
-<StyleSheet primary={true} /> */}
-
-{/* <NameList /> */}
-      {/* <UserGreeting /> */}
-
-      {/* <ParentComponent /> */}
-
-
-    {/* <BindEvent /> */}
-    {/* <ClassClick /> */}
-
-
-      {/* <FunctionClick /> */}
-
-
-
-
-
-      {/* <Counter /> */}
-
-{/* <Message /> */}
-
-{/* <Greet name= "abcd" > its childern propery </Greet> */}
-
-{/* <Greet name= "f" heroname="b" >
- <button>click</button>
-</Greet> */}
-
-
-{/* <Welcome name="abcdefg" hello="hello">
- <h4>this is class with childern</h4>
-</Welcome> */}
-
-{/* <Hello /> */}
-
-
-
-      {/* <HookCounterFour />
-      <ClassCounterOne />
-      <HookCounterOne /> */}
-
-    </div>
+    </Routes> */}
+    </>
+ 
   );
 }
 
