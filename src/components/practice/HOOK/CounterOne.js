@@ -10,7 +10,7 @@ const reducer = (state, action)=> {
        return state - 1;
        case 'reset' :
          return initialState;
-         default : state
+         default :return state
   }
 }
 function CounterOne() {
