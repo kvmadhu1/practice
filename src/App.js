@@ -60,8 +60,11 @@ export const ChannelContext = React.createContext()
 
 function App() {
   return (
-    <>
-  <CounterOne />
+    
+    <div className="App">
+<CounterOne />
+    
+  
 
     
     {/* <Navbar />
@@ -70,7 +73,7 @@ function App() {
       <Route path='about' element={<About />} />     
 
     </Routes> */}
-    </>
+    </div>
  
   );
 }
