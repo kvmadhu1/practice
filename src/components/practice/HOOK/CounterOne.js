@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useReducer} from 'react'
 
 
 const initialState = 0;
@@ -14,11 +14,7 @@ const reducer = (state, action)=> {
   }
 }
 function CounterOne() {
-<<<<<<< HEAD
  const [count, dispatch] = useReducer(reducer,initialState)
-=======
-    
->>>>>>> 4daded4737933190f9ec4a3081d569794a7ed853
 
   return (
     
